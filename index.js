@@ -17,12 +17,12 @@ function sendPoll() {
 
   bot.sendPoll(GROUP_ID, 'Hôm nay ăn gì?', foodList, {
     is_anonymous: false,
-    allows_multiple_answers: false,
+    allows_multiple_answers: true,
   });
 
   const stickerId = 'CAACAgUAAxkBAAEFvU5mWnQXy1Zg5RwUdwEAAa-EwXN1NDgAAhkcAAIYBIVVNcuIDTpXGfowBA'; // Sticker vui
   bot.sendSticker(GROUP_ID, stickerId);
-  bot.sendMessage(GROUP_ID, `Hôm nay <b>${todayPerson}</b> mở hàng nha mọi người!`, { parse_mode: 'HTML' });
+  bot.sendMessage(GROUP_ID, `Hôm nay <b>${todayPerson}</b> mua đồ ăn sáng nha mọi người!`, { parse_mode: 'HTML' });
 }
 
 function sendReminder() {
