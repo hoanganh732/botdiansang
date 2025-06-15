@@ -43,3 +43,8 @@ function scheduleJobs() {
 }
 
 scheduleJobs();
+
+console.log("lên lịch",POLL_TIME);
+console.log("Gửi QR",REMINDER_TIME);
+
+
