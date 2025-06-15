@@ -1,11 +1,8 @@
-const people = require('./people');
-
-export function getNextPersonIndex() {
-  const today = new Date()
-  const dayCount = Math.floor(today.getTime() / (1000 * 60 * 60 * 24))
-  return dayCount % people.length
+function getTodayIndex() {
+  const today = new Date();
+  const start = new Date('2024-01-01');
+  const diff = Math.floor((today - start) / (1000 * 60 * 60 * 24));
+  return diff;
 }
 
-export function getTodayPerson() {
-  return people[getNextPersonIndex()]
-}
+module.exports = { getTodayIndex };
