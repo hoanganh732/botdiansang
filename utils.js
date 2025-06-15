@@ -1,4 +1,4 @@
-import people from './people'
+const people = require('./people');
 
 export function getNextPersonIndex() {
   const today = new Date()
