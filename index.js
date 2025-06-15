@@ -1,4 +1,5 @@
-import TelegramBot from 'node-telegram-bot-api'
+//import TelegramBot from 'node-telegram-bot-api'
+const TelegramBot = require('node-telegram-bot-api');
 import cron from 'node-cron'
 import dotenv from 'dotenv'
 import people from './people.js'
