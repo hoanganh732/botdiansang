@@ -1,10 +1,16 @@
 //import TelegramBot from 'node-telegram-bot-api'
+//import cron from 'node-cron'
+//import dotenv from 'dotenv'
+//import people from './people'
+//import foodOptions from './food-options'
+//import { getTodayPerson, getNextPersonIndex } from './utils'
+
 const TelegramBot = require('node-telegram-bot-api');
-import cron from 'node-cron'
-import dotenv from 'dotenv'
-import people from './people'
-import foodOptions from './food-options'
-import { getTodayPerson, getNextPersonIndex } from './utils'
+const TelegramBot = require('node-telegram-bot-api');
+const foodOptions = require('./food-options');
+const people = require('./people');
+const { getTodayIndex } = require('./utils');
+
 
 dotenv.config()
 
