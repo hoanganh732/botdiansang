@@ -43,3 +43,5 @@ function scheduleJobs() {
 }
 
 scheduleJobs();
+
+console.log("token",  process.env.BOT_TOKEN);
