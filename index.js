@@ -2,9 +2,9 @@
 const TelegramBot = require('node-telegram-bot-api');
 import cron from 'node-cron'
 import dotenv from 'dotenv'
-import people from './people.js'
-import foodOptions from './food-options.js'
-import { getTodayPerson, getNextPersonIndex } from './utils.js'
+import people from './people'
+import foodOptions from './food-options'
+import { getTodayPerson, getNextPersonIndex } from './utils'
 
 dotenv.config()
 
