@@ -4,7 +4,7 @@ const foodOptions = require('./food-options');
 const people = require('./people');
 require('dotenv').config();
 
-const bot = new TelegramBot(process.env.TELEGRAM_TOKEN, { polling: true });
+const bot = new TelegramBot(process.env.BOT_TOKEN, { polling: true });
 
 const GROUP_ID = process.env.GROUP_ID;
 const POLL_TIME = '06:30';
