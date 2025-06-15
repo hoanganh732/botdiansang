@@ -1,6 +1,14 @@
 const people = [
-  '@dinhxen', '@xuanthang', '@locbay', '@doanphuc', '@minhhieu',
-  '@thanhdanh', '@duyluan', '@hoanganh', '@thangloi', '@yangduy'
-]
+  'Đinh Xên',
+  'Xuân Thắng',
+  'Lóc Bay',
+  'Đoàn Hữu Phúc',
+  'Minh Hiếu',
+  'Trần Thanh Danh',
+  'Phan Duy Luân',
+  'hoanganh',
+  'Trần Thắng Lợi',
+  'Yang Duy'
+];
 
-export default people
+module.exports = people;
