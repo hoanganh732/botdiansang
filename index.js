@@ -46,6 +46,7 @@ scheduleJobs();
 
 console.log("lên lịch",POLL_TIME);
 console.log("Gửi QR",REMINDER_TIME);
+console.log("update 1");
 sendPoll();
 sendReminder();
 bot.on('message', (msg) => {
