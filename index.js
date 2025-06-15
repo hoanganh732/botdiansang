@@ -7,8 +7,8 @@ require('dotenv').config();
 const bot = new TelegramBot(process.env.BOT_TOKEN, { polling: true });
 
 const GROUP_ID = process.env.GROUP_ID;
-const POLL_TIME = '06:30';
-const REMINDER_TIME = '07:45';
+const POLL_TIME = '10:54';
+const REMINDER_TIME = '10:54';
 
 function sendPoll() {
   const todayIndex = getTodayIndex();
